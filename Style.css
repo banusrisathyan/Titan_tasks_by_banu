@@ -1,0 +1,32 @@
+form{
+    background-color: aquamarine;
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 15px hsla(0, 6%, 25%, 0.3);
+}
+#textbox{
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+label{
+    font-size: 20px;
+    padding: 10px;
+}
+button{
+    margin-top: 30px;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 250px;
+}
+.container{
+    margin-top: 30px;
+}
+#result{
+    font-size: larger;
+}
