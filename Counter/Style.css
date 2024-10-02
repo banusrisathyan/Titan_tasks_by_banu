@@ -1,0 +1,22 @@
+#countNumber{
+    font-size: 5em;
+    color: rgb(34, 100, 162);
+    text-align: center;
+}
+#buttoncn{
+    text-align: center;
+}
+.button{
+    width: 200px;
+    padding:0.5em;
+    margin: 20px;
+    border: 2px solid black;
+    background-color: rgb(222, 202, 175);
+    border-radius: 25px;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+.button:hover{
+    background-color: azure;
+}
