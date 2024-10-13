@@ -1,0 +1,96 @@
+#navbar{
+    background-color: #E1AFD1;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    
+}
+#navbar ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+    
+}
+#navbar a{
+    text-decoration: none;
+    color: #AF0171;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: larger;
+}
+#navbar a:hover{
+    color:  #E80F88;
+    border: 2px solid  rgb(222, 167, 204);
+    border-radius: 20px;
+    background-color: rgb(222, 167, 204);
+    padding: 10px;
+}
+#navbar li {
+    display: inline-block;
+    padding: 10px;
+    margin-top: 0; 
+}
+#navbar h3 {
+    margin: 0;
+    padding-left: 100px;
+    font-size: 50px;
+    color: #E80F88;
+}
+/* For screens 768px or smaller */
+@media only screen and (max-width: 768px) {
+    #navbar ul {
+        position: fixed;
+        bottom: 0;
+        width:100%;
+        justify-content: space-around;
+        background-color: #E1AFD1;
+
+    }
+    #navbar a:hover{
+        color:#7469B6;
+        border: 2px solid  rgb(222, 167, 204);
+        border-radius: 20px;
+        background-color: rgb(222, 167, 204);
+    }
+}
+body{
+    background-color: #FFE6E6;
+    width: 100vh;
+    height: 100vh;
+}
+#home {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Four equal columns */
+    gap: 20px; /* Add spacing between columns */
+    width: 100vw; /* Use full viewport width */
+    height: 100vh; /* Full viewport height */
+    padding: 20px; /* Add padding to the container */
+}
+
+#home .content {
+    grid-column: span 2; /* The content spans the first two columns */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center the content */
+    align-items: center; /* Horizontally center the content */
+    padding: 20px;
+    color: #610C63;
+}
+
+#home .image1,
+#home .image2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home img {
+    width: 100%;
+    height: auto; /* Make the images responsive */
+    object-fit: cover;
+}
