@@ -1,0 +1,54 @@
+body{
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: pink; */
+}
+#calci-container{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: hsl(301, 96%, 22%);
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+}
+#display{
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: rgb(243, 178, 225);
+    color: rgb(45, 1, 8);
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 10px;
+    padding: 25px;
+}
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: hsl(315, 49%, 59%);
+    color: aliceblue;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsl(315, 49%, 70%);
+}
+button:active{
+    background-color: hsl(315, 49%, 60%);
+
+}
+.operator-btn{
+    background-color: hsl(37, 82%, 35%);
+}
+.operator-btn:hover{
+    background-color: hsl(37, 82%, 55%);
+} 
