@@ -1,0 +1,75 @@
+body{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   background-color: hsla(182, 68%, 68%, 0.25) ; 
+   margin: 0;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   color: black;
+}
+.wF{
+    margin: 20px;
+}
+.input{
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    border: 3px solid rgb(255, 136, 0);
+    border-radius: 10px;
+    width: 300px;
+    margin: 10px;
+}
+button[type="submit"]{
+    padding: 10px 20px;
+    font-weight:bold ;
+    font-size: 2rem;
+    background-color: hsl(160, 100%, 55%);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button[type="submit"]:hover{
+    background-color: hsl(160, 100%, 35%);
+
+}
+.card{
+    background: linear-gradient(180deg, hsl(0, 100%, 60%),hsl(46, 100%, 75%));
+    padding: 50px;
+    box-shadow: 2px 2px 5px hsl(46, 63%, 69%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: 3.5rem;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+p{
+    font-size: 1.5rem;
+    margin: 5px 0;
+}
+.cdisplay, .tdisplay{
+    font-size: 3.5rem;
+    font-size: bold;
+    color: hsla(0, 88%, 3%, 0.75);
+}
+.hdisplay{
+    font-weight: bold;
+    margin-bottom: 25px;
+
+}
+.ddisplay{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.wdisplay{
+    margin: 0;
+    font-size: 5.5rem;
+}
+.edisplay{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: hsl(0, 0%, 0%,0.765);
+}
