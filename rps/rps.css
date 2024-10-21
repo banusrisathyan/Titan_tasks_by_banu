@@ -1,0 +1,40 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    font-size: 3rem;
+    color: hsl(0, 7%, 20%);
+}
+#choices{
+    margin-bottom: 30px;
+}
+#choices button{
+    font-size: 7.5rem;
+    min-width: 160px;
+    margin: 0 10px;
+    border-radius: 250px;
+    background-color: aquamarine;
+    cursor: pointer;
+    transition: backgroundcolor 0.5s ease;
+}
+#choices button:hover{
+    background-color: hsl(160, 74%, 41%);
+}
+#pd , #cd{
+    font-size: 2.5em;
+}
+#rd{
+    font-size: 5rem;
+    margin: 30px 0;
+}
+.green{
+    color: green;
+}
+.red{
+    color: red;
+}
